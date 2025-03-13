@@ -46,7 +46,7 @@ public class TaulerService {
      * @return
      */
     private String quiEsElGuanyadorVH(String[][] caselles) {
-        for (int i = 0; i < 2; i++){ 
+        for (int i = 0; i < 3; i++){ 
             if (caselles[i][0].equals(caselles[i][1])
             && caselles[i][1].equals(caselles[i][2])
             && !caselles[i][0].isEmpty()) {
