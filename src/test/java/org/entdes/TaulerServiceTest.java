@@ -20,7 +20,7 @@ class TaulerServiceTest {
 
 
     /**
-     * Verifica que el jugador "X" guanya
+     * Verifica que el jugador "X " guanya
      */
     @Test
     void testComprovarGuanyadorX() {
