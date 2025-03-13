@@ -33,7 +33,7 @@ class TaulerServiceTest {
         taulerService.tractarClicCasella(2, 0);
         
         assertTrue(taulerService.isGameOver());
-        assertEquals("O", taulerService.getGuanyador());
+        assertEquals("X", taulerService.getGuanyador());
     }
 
     /**
